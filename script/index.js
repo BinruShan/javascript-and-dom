@@ -10,7 +10,7 @@ for(let heading of headings){
     collect += `\t${heading.textContent}\n`; 
 }
 //After the loop, use alert to print collect
-
+alert(collect); 
 //Printed output:
 
 
@@ -28,8 +28,8 @@ let bxs = document.querySelectorAll('.bg-main-content .box');
 let when_to_launch = bxs[12];
 let scoopedElements = when_to_launch.children;
 
-collect += `${scoopedElements[0].innerText}\n${scoopedElements[1].textContent}`;
-alert(collect);
+let collect2 = `${scoopedElements[0].innerText}\n${scoopedElements[1].textContent}`;
+alert(collect2);
 
 /*
 Submission
